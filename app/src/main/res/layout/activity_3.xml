@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intents.Activity3">
+
+    <TableLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/TextViewNombreAlarma"
+                android:layout_width="161dp"
+                android:layout_height="34dp"
+                android:text="@string/TextViewNombreAlarma"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextNombreAlarma"
+                android:layout_width="247dp"
+                android:layout_height="57dp"
+                android:ems="10"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textViewHora"
+                android:layout_width="143dp"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewHora"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextHora"
+                android:layout_width="246dp"
+                android:layout_height="57dp"
+                android:ems="10"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textViewMinutos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewMinutos"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextMinutos"
+                android:layout_width="146dp"
+                android:layout_height="57dp"
+                android:ems="10"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/botonCrear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/botonCrear" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,48 @@
 <resources>
     <string name="app_name">Samuel_Suarez_Viton_PMDM_Tarea1</string>
+
+    <!-- Actividad 1-->
+    <!--Identificador del TextViewNombre-->
     <string name="TextViewNombre">Nombre</string>
+
+    <!--Identificador del TextViewContraseña-->
     <string name="TextViewContraseña">Contraseña</string>
+
+    <!--Identificador del Boton de iniciar sesion-->
+    <string name="buttonLogin">Iniciar Sesion</string>
+
+    <!--Identificador del boton modificar-->
+    <string name="buttonModificar">Modificar Credenciales</string>
+
+    <!--Actividad 2-->
+    <!--TextView del texto Bienvenida-->
+    <string name="textViewBienvenida">Bienvenido: </string>
+
+    <!--Identificador del boton para poner alarma-->
+    <string name="BotonAlarma">Poner Alarma</string>
+
+    <!--Actividad 3-->
+    <!--Identificador del TextView del nombre alarma-->
+    <string name="TextViewNombreAlarma">Nombre Alarma</string>
+
+    <!--Identificador del TextView de la hora alarma-->
+    <string name="textViewHora">Hora alarma</string>
+
+    <!--Identificador del TextView de los minutos Alarma-->
+    <string name="textViewMinutos">Minutos alarma</string>
+
+    <!--Identificador del boton crear alarma-->
+    <string name="botonCrear">Crear Alarma</string>
+
+    <!--Actividad 4-->
+    <!--Identificador del TextView del nuevo Nombre-->
+    <string name="textViewNuevoNombre">Nuevo Nombre</string>
+
+    <!--Identificador del TextView de la nueva Contraseña-->
+    <string name="textViewNuevaContraseña">Nueva Contraseña</string>
+
+    <!--Identificador del boton guardar nuevos datos-->
+    <string name="buttonGuardar">Guardar cambios</string>
+
 
 </resources>
